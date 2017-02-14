@@ -14,7 +14,7 @@ class TicketSystem
     adult_ticket = gets.chomp.to_i
 
     print "\n\nPlease enter the amount of Child Ticket ($11 pp): "
-    child_ticket = gets.chomp.to_itick
+    child_ticket = gets.chomp.to_i
 
 
       until (isPaid == true)
